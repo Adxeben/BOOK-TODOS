@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOOKS TODOS</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+   <div class="card">
+    <div class="card-top">
+        <div class="card-top-container">
+            <h2>BOOK LIST</h2>
+            <h3>Books for Nerds</h3>
+            <form id="search" name="search" class="mt-1">
+                <input type="search" placeholder="Search books...">
+            </form>
+        </div>
+    </div>
+    <div class="card-body">
+       <div class="card-body-container">
+            <div class="heading-text">
+                <h2 class="card-body-title">Books to Read</h2>
+                <button id="ham" class="hamburger hamburger--emphatic" type="button">
+                    <span class="hamburger-box">
+                      <span class="hamburger-inner"></span>
+                    </span>
+                    <div style="font-weight: 600;">Hide/Show</div>
+                </button>
+            </div>
+            <ul>
+                <li class="list-item">
+                    <span class="name">Merchant of Venice</span>
+                    <span class="delete">delete</span>
+                </li>
+                <li class="list-item">
+                    <span class="name">Lord of the Flies</span>
+                    <span class="delete">delete</span>
+                </li>
+                <li class="list-item">
+                    <span class="name">Half of a Yellow Sun</span>
+                    <span class="delete">delete</span>
+                </li>
+            </ul>
+            <form id="add-book" name="addBook">
+                <input name="inputBook" type="text" placeholder="Add a book...">
+                <input name="button" type="submit" class="btn btn-primary" value="Add">
+            </form>
+       </div>
+    </div>
+   </div>
+
+
+
+
+
+
+   
+
+
+
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
